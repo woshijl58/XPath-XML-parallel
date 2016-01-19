@@ -1,7 +1,7 @@
 /************************************************************
 Copyright (C).
 FileName: XML_parallel.c
-Author: Lin Jiang
+Author: Jack
 Version : V3.0
 Date: 01/18/2015
 Description: This program could execute the XPath to get some necessary information from a large XML dataset. 
@@ -63,7 +63,7 @@ Node* start_root[MAX_THREAD];   //start tree for each thread
 Node* finish_root[MAX_THREAD];   //finish tree for each thread
 
 /*data structure for files in each thread*/
-char * buffFiles[MAX_THREAD]; //split file in memory for each thread
+char * buffFiles[MAX_THREAD]; 
 
 /*data structure for elements in XML file*/
 typedef struct
