@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312" ?>
+ <!--employee's personal in
+formation-->
+<company name="Que's C++ studio">
+<sales>
+  <salesman age="28" level="1" sex="male">Jack</salesman> <!--salesman information-->
+</sales>
+<develop>
+  <programmer age="35" sex="famale">Jane</programmer>
+  <programmer age="35" sex="famale">Jane1</programmer>
+  <manager/><engineer age="40" sex="male" level="2">Johnson</engineer>
+  <![CDATA[<hello><world><city>]]>
+</develop><!--member information-->
+    <![CDATA[
+        <hello>
+                <world>
+        
+        ]]>
+</company>
